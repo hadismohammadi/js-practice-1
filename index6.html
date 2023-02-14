@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>hello javascripts</h1>
+    <p id="para1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quaerat ea
+      et incidunt rem sit possimus praesentium ex quis officia! Facere
+      laudantium suscipit temporibus,
+    </p>
+
+    <h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+      praesentium est. Suscipit cupiditate, quae obcaecati cum quisquam magnam.
+    </h3>
+    <h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam id saepe
+      enim.
+    </h3>
+    <script>
+      let txt = document.getElementById("para1").innerText;
+      alert(txt);
+      document.getElementById("para1").innerText = "parsa ghorbanian";
+
+      let x = (document.getElementsByTagName("h3")[1].innerHTML =
+        "<em>italic text</em>");
+    </script>
+  </body>
+</html>
